@@ -17,7 +17,7 @@
                 "NickDeKruijk\\Kentaa\\ServiceProvider"
             ],
             "aliases": {
-                "Oxxa": "NickDeKruijk\\Kentaa\\Facade"
+                "Kentaa": "NickDeKruijk\\Kentaa\\Facade"
             }
         }
     },
