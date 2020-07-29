@@ -1,6 +1,6 @@
 <?php
 
-namespace NickDeKruijk\Oxxa;
+namespace NickDeKruijk\Kentaa;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
