@@ -1,0 +1,29 @@
+{
+    "name": "nickdekruijk/kentaa-laravel",
+    "description": "Kentaa API Laravel Package",
+    "license": "MIT",
+    "keywords": ["kentaa", "api", "laravel", "charity"],
+    "authors": [{
+        "name": "Nick de Kruijk",
+        "email": "git@nickdekruijk.nl"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NickDeKruijk\\Kentaa\\ServiceProvider"
+            ],
+            "aliases": {
+                "Oxxa": "NickDeKruijk\\Kentaa\\Facade"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NickDeKruijk\\Kentaa\\": "src/"
+        }
+    }
+}
